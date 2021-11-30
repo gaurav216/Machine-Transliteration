@@ -20,7 +20,7 @@ In order to train our model, we need to turn the words into 3 Numpy arrays, enco
 
 • **encoder_input_data** is a 3D array of shape (num_pairs, max_english_sentence_length, num_english_characters) containing a one-hot vectorization of the English sentences.
 
-• **decoder_input_data** is a 3D array of shape (num_pairs, max_french_sentence_length, num_french_characters) containg a one-hot vectorization of the French sentences.
+• **decoder_input_data** is a 3D array of shape (num_pairs, max_Hindi_sentence_length, num_Hindi_characters) containg a one-hot vectorization of the Hindi sentences.
 
 • **decoder_target_data** is the same as decoder_input_data but offset by one timestep. decoder_target_data[:, t, :] will be the same as decoder_input_data[:, t + 1, :].
 
